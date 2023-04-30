@@ -1,0 +1,29 @@
+.nav {
+    background-color: rgba(26, 26, 182, 0.918);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: sticky;
+    top: 0;
+  &__logo {
+    &-jc {
+        color: white;
+    }
+  }
+  &__ul {
+    display: flex;
+    &-li{
+        padding: 0 10px;
+        text-transform: uppercase;
+    }
+    &-li-a{
+        color: white;
+        transition: 300ms;
+        &:hover {
+          color: black;
+        }
+    }
+  }
+}
+

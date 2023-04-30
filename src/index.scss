@@ -1,0 +1,9 @@
+@use './sass/resets';
+@use './sass/header';
+@use './sass/nav';
+@use './sass/exercises';
+@use './sass//solution';
+
+body{
+    background-color: rgb(238, 238, 238);
+}
